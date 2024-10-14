@@ -6,20 +6,20 @@
 
 ---
 
-## Zero Trust [Organization](organization)
+## [Zero Trust Organization](organization)
 
-## Identity Provider Integration
+## [Identity Provider Integration](identity_provider)
 
-## Device Enrolment Policy
+## [Device Enrolment Policy](device_enrolment)
 
 ➡️ **Whitelist Devices with mTLS**
 
-## Device Posture Assessment
+## [Device Posture Assessment](device_posture)
 
-## Gateway Rules
+## [Gateway Rules](gateway_rules)
 
-## Data Loss Prevention
+## [Data Loss Prevention](data_loss_prevention)
 
-## TLS Inspection
+## [TLS Inspection](tls_inspection)
 
-## Threat Intelligence
+## [Threat Intelligence](threat_intel)
