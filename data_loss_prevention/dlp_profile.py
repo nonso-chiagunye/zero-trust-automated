@@ -68,9 +68,9 @@ data = {
             "entries": [
                 {
                     "enabled": True,
-                    "name": "Block @hacker.com emails",
+                    "name": "Block top secret data",
                     "pattern": {
-                        "regex": "^[a-zA-Z0-9._%+-]+@hacker\.com$", # Example regex for email pattern
+                        "regex": "(?i)\btop secret\b", # Example regex
                         "validation": "none"
                     }
                 }
