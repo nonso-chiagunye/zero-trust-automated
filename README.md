@@ -1,4 +1,4 @@
-<h1 align="center">Cloudflare Zero Trust - Implementation and Operation</h1>
+<h1 align="center">Zero Trust with Cloudflare - Implementation and Operation</h1>
 
 ---
 
@@ -6,9 +6,9 @@
 
 ---
 
-## Create Organization
+## Zero Trust [Organization](organization)
 
-## Integrate Identity Provider
+## Identity Provider Integration
 
 ## Device Enrolment Policy
 
