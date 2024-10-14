@@ -14,6 +14,10 @@
 
 ## [Identity Provider Integration](identity_provider)
 
+- Integrates an Identity Provider
+- Used Okta. You can use any idp that supports OIDC and SAML
+- Sets all parameters required by okta for integration
+
 ## [Device Enrolment Policy](device_enrolment)
 
 ➡️ **Whitelist Devices with mTLS**
