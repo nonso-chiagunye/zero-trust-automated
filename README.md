@@ -1,4 +1,4 @@
-<h1 align="center">Zero Trust with Cloudflare - Implementation and Operation</h1>
+<h1 align="center">Zero Trust with Cloudflare</h1>
 
 ---
 
