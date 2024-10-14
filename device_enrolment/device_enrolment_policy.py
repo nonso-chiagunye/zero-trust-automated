@@ -48,5 +48,3 @@ except requests.exceptions.RequestException as e:
     # Handle any request-related errors 
     print(f"An error occurred: {e}")
 
-
-# https://chatgpt.com/c/66f59523-0b3c-8007-9ce6-7d9db1877cb0
