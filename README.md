@@ -8,6 +8,10 @@
 
 ## [Zero Trust Organization](organization)
 
+- Creates a zero trust organization
+- Chooses a unique team name for device enrolment through warp
+- Sets general rules about authentication and sessions
+
 ## [Identity Provider Integration](identity_provider)
 
 ## [Device Enrolment Policy](device_enrolment)
