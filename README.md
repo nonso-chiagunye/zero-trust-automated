@@ -63,4 +63,10 @@
 
 ## [TLS Inspection](tls_inspection)
 
+- TLS Inspection analysis the body of traffic (req.body) for threats
+- It involves decrypting the traffic, analyzing it, encrypting back before forwarding to destination
+- Included are antivirus, sandboxing, deep packet inspection, etc
+- It requires a root certificate for the tls termination. [This project](tls_inspection/inspection_configuration.py) used the root certificate uploaded above (in mTLS)
+- I also included a list of IPs that should be excluded from inspection (like Pentest IPs)
+
 ## [Threat Intelligence](threat_intel)
