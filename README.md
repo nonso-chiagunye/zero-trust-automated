@@ -70,3 +70,11 @@
 - I also included a list of IPs that should be excluded from inspection (like Pentest IPs)
 
 ## [Threat Intelligence](threat_intel)
+
+- Cloudflare allows creation of custom indicators where you can upload threat feeds. They must be in stix 2 format
+- Steps involved creating this threat intel;
+- [Step 1:](threat_intel/custom_indicator.py) Create custom indicator feed instance
+- [Step 2:](threat_intel/create_rule.py) Create gateway rule that matches traffic based on the indicator feed
+- [Step 3:](threat_intel/fetch_upload_feeds.py) Fetch threat intel feeds from threat intel providers. You can combine multiple feeds from multiple providers (here I fetched IP drops from spamhaus)
+- [Step 4:](threat_intel/fetch_upload_feeds.py) Convert the threat feeds to .stix2 format and upload to the custom indicator feed instance created earlier
+- [Step 5:](threat_intel/schedules) Schedule a cron (bash/Linux) or task (PowerShell/Windows) to run the function daily, to fetch new threat feeds, convert to .stix2 and upload to Cloudflare.
