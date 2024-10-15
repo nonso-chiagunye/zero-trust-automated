@@ -27,7 +27,8 @@
 ➡️ **Whitelist Devices with Mutual TLS ([mTLS](device_enrolment/mTLS))**
 
 - Use mutual TLS if you want to allow only specific devices (like company issued devices) to enroll in your zero trust network
-  -Generate root and client certificate. Upload root cert to cloudflare, and add client cert to system keychain -[Step 1:](device_enrolment/mTLS/install_cfssl.sh) Download Cloudflare ssl tool (cfssl), build and install on your linux machine
+- Generate root and client certificate. Upload root cert to cloudflare, and add client cert to system keychain
+- [Step 1:](device_enrolment/mTLS/install_cfssl.sh) Download Cloudflare ssl tool (cfssl), build and install on your linux machine
 - [Step 2:](device_enrolment/mTLS/generate_root_ca.sh) Generate root ca and key pair with cfssl
 - [Step 3:](device_enrolment/mTLS/generate_client_cert.sh) Generate client ca with cfssl
 - [Step 4:](device_enrolment/mTLS/upload_root_cert.py) Upload the root cert to Cloudflare
