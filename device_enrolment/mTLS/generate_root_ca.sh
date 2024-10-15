@@ -13,7 +13,7 @@ echo "Created directory $ROOT_CA_DIR for the Root CA."
 # Create ca-csr.json
 cat > ca-csr.json <<EOL
 {
-  "CN": "Access Testing CA",
+  "CN": "Company Name",
   "key": {
     "algo": "rsa",
     "size": 4096

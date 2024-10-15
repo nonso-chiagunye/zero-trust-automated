@@ -9,7 +9,7 @@ cd $ROOT_CA_DIR
 # Create client-csr.json with the specified JSON content
 cat > client-csr.json <<EOL
 {
-  "CN": "James Royal",
+  "CN": "Your Name",
   "hosts": [""],
   "key": {
     "algo": "rsa",

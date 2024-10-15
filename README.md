@@ -53,6 +53,14 @@
 
 ## [Data Loss Prevention](data_loss_prevention)
 
+- Cloudflare has predefined dlp profiles for various use cases (Finance, Health, Credentials and Secrets, etc)
+- You can also create custom dlp profiles according to your sensitive data structure.
+- This project combines predefined and custom profile entries into one [profile](data_loss_prevention/dlp_profile.py). The steps below;
+- Step 1: A function to make a GET request to multiple predefined profiles, and extract the necessary entries.
+- Step 2: Use regex to create a custom dlp matching pattern (according to target data structure)
+- Step 3: Combine the predefined and custom entries in one custom dlp profile
+- Step 4: Use the custom profile to create a [gateway rule](data_loss_prevention/dlp_gateway_rule.py) that blocks traffic matching the dlp profile.
+
 ## [TLS Inspection](tls_inspection)
 
 ## [Threat Intelligence](threat_intel)

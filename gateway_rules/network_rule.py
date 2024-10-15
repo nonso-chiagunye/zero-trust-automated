@@ -29,7 +29,7 @@ data = {
         "block_page_enabled": True,
         "resolve_dns_through_cloudflare": True
     },
-    "traffic": "(net.dst.ip in \"10.0.0.0/8\" and user.email matches \"*@company.com\")" # Security categories from Cloudflare docs
+    "traffic": "(net.dst.ip in \"10.0.0.0/8\" and user.email matches \"*@company.com\")" 
 }
 
 try:
