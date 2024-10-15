@@ -47,6 +47,10 @@
 
 ## [Gateway Rules](gateway_rules)
 
+- [DNS](gateway_rules/dns_rule.py) rule creates dns security policy
+- [Http](gateway_rules/http_rule.py) rule creates http security policy
+- [l4](gateway_rules/network_rule.py) rule creats network security policy
+
 ## [Data Loss Prevention](data_loss_prevention)
 
 ## [TLS Inspection](tls_inspection)
