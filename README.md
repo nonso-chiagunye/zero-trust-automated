@@ -10,6 +10,7 @@
 
 - Creates a zero trust organization
 - Chooses a unique team name for device enrolment through warp
+- Users will need to specify the team name in order to join your zero trust network
 - Sets general rules about authentication and sessions
 
 ## [Identity Provider Integration](identity_provider)
@@ -20,7 +21,10 @@
 
 ## [Device Enrolment Policy](device_enrolment)
 
-➡️ **Whitelist Devices with mTLS**
+- Sets the policy conditions for allowing a device enrol into your zero trust network
+- Only controls device enrolment, not access to your private networks and applications
+
+➡️ **Whitelist Devices with Mutual TLS ([mTLS](device_enrolment/mTLS))**
 
 ## [Device Posture Assessment](device_posture)
 
