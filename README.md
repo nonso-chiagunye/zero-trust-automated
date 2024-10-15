@@ -6,7 +6,7 @@
 
 ---
 
-## [Zero Trust Organization](organization)
+## [Create Zero Trust Organization](organization)
 
 - Creates a zero trust organization
 - Chooses a unique team name for device enrolment through warp
@@ -14,9 +14,9 @@
 
 ## [Identity Provider Integration](identity_provider)
 
-- Integrates an Identity Provider
-- Used Okta. You can use any idp that supports OIDC and SAML
-- Sets all parameters required by okta for integration
+- Authenticates users and devices into the zero trust network
+- This project used Okta as idp.
+- You can select from a list of [supported idps](https://developers.cloudflare.com/api/operations/access-identity-providers-add-an-access-identity-provider)
 
 ## [Device Enrolment Policy](device_enrolment)
 
