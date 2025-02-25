@@ -1,4 +1,4 @@
-
+# Create a tunnel to connect your private services to Cloudflare global network
 
 import requests
 import sys
@@ -18,7 +18,6 @@ headers = {
 data = {
     "name": "example-staging-tunnel-01",
     "config_src": "cloudflare",  # Choose local if you want to configure the tunnel at the cloudflared server with YAML
-   # "tunnel_secret": "AQIDBAUGBwgBAgMEBQYHCAECAwQFBgcIAQIDBAUGBwg=" Password if you chose local as config src
 }
 
 try:
