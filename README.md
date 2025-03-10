@@ -41,6 +41,14 @@
 - [Step 4:](device_enrolment/mTLS/upload_root_cert.py) Upload the root cert to Cloudflare
 - [Step 5:](device_enrolment/mTLS/client_cert/) Add client cert to system keychain with bash (Linux) or PowerShell (Windows)
 
+## [Create Device Profile](warp_settings)
+
+- Device profile settings control what is allowed on end-user device side (unlike gateway policies that control what is allowed at the Cloudflare gateway side)
+- Best practice: make the 'Deafult Profile' as strict as possible, then create individual profiles to make exceptions for users as required
+- Create a new [device profile](warp_settings/custom_device_profile.py)
+- Create [local domain fallback](warp_settings/local_domail_fallback.py) to allow domain resolution by a local DNS server
+- Create [split tunnel](warp_settings/split_tunnel_exclude.py) to exclude IPs or URLs that shouldn't be routed through Cloudflare global network
+
 ## [Device Posture Assessment](device_posture)
 
 - An integral part of zero trust architecture
