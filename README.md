@@ -41,7 +41,7 @@
 - [Step 4:](device_enrolment/mTLS/upload_root_cert.py) Upload the root cert to Cloudflare
 - [Step 5:](device_enrolment/mTLS/client_cert/) Add client cert to system keychain with bash (Linux) or PowerShell (Windows)
 
-## [Create Device Profile](warp_settings)
+## [Create Device Profiles](warp_settings)
 
 - Device profile settings control what is allowed on end-user device side (unlike gateway policies that control what is allowed at the Cloudflare gateway side)
 - Best practice: make the 'Deafult Profile' as strict as possible, then create individual profiles to make exceptions for users as required
