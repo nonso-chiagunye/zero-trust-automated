@@ -19,6 +19,13 @@
 - This project used Okta as idp.
 - You can select from a list of [supported idps](https://developers.cloudflare.com/api/operations/access-identity-providers-add-an-access-identity-provider)
 
+## [Create Tunnel](tunnels)
+
+- Create tunnel to connect private networks and applications to Cloudflare
+- This project uses Cloudflared tunnel type (You can use WARP Connector tunnel type)
+- First create a [tunnel](tunnels/tunnel.py)
+- Then configure [routes](tunnels/tunnel_routes.py) to private networks
+
 ## [Device Enrolment Policy](device_enrolment)
 
 - Sets the policy conditions for allowing a device enrol into your zero trust network
