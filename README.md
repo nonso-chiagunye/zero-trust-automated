@@ -44,7 +44,7 @@
 ## [Create Device Profiles](warp_settings)
 
 - Device profile settings control what is allowed on end-user device side (unlike gateway policies that control what is allowed at the Cloudflare gateway side)
-- Best practice: make the 'Deafult Profile' as strict as possible, then create individual profiles to make exceptions for users as required
+- Best practice: make the 'Deafult Profile' as strict as possible, then create individual custom profiles to make exceptions for users as required
 - Create a new [device profile](warp_settings/custom_device_profile.py)
 - Create [local domain fallback](warp_settings/local_domail_fallback.py) to allow domain resolution by a local DNS server
 - Create [split tunnel](warp_settings/split_tunnel_exclude.py) to exclude IPs or URLs that shouldn't be routed through Cloudflare global network
